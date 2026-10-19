@@ -6,7 +6,7 @@ repository: https://github.com/TrangLeQuynh/flutter-upgrade-version
 
 environment:
   sdk: ^3.9.0
-  flutter: ">=3.35.0"
+  flutter: ">=3.44.0"
 
 dependencies:
   flutter:
