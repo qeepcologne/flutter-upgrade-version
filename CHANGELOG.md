@@ -1,3 +1,10 @@
+## Unreleased
+
+* Android: require AGP 9. Kotlin is compiled by AGP's built-in Kotlin support, so the `buildscript` block, the `rootProject.allprojects` repositories and the `kotlin-android` plugin are removed; `kotlinOptions` is replaced by `kotlin { compilerOptions { jvmTarget = JVM_17 } }`
+* Android: use the new DSL (`compileSdk`, `minSdk`)
+* Raise the minimum Flutter version to 3.44.0
+* The example app is unchanged (still AGP 8.7.3)
+
 ## 1.1.9
 
 * Support Swift Package manager
